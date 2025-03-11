@@ -10,4 +10,7 @@ const person = {
 person.salary = 30000;
 person["age"] = 26;
 person["fav places"] = ["maldivs", "bali", "pataya"];
+
+const propName = "profession";
+person[propName] = "devops";
 console.log(person);
